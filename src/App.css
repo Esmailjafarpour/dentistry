@@ -1,3 +1,25 @@
-body{
+@font-face {
+  font-family:'shabnam';
+  src: url('../public/fonts//shabnam-font-v2.4.0/Shabnam-Bold.woff2') format('woff');
+  src: url('../public/fonts//shabnam-font-v2.4.0/Shabnam-Bold.woff') format('woff'),
+       url('../public/fonts//shabnam-font-v2.4.0/Shabnam-Bold.woff2') format('woff2'),
+} 
+
+@font-face {
+  font-family:'vazir';
+  src: url('../public/fonts/vazir-font-v18.0.0/Vazir-Light.woff2') format('woff2');
+  src: url('../public/fonts/vazir-font-v18.0.0/Vazir-Light.woff') format('woff'),
+       url('../public/fonts/vazir-font-v18.0.0/Vazir-Light.woff2') format('woff2'),
+}
+
+@font-face {
+  font-family:'Yekan';
+  src: url('../public/fonts//Yekan-Font-3.0/Yekan.woff2') format('woff2');
+}
+
+
+*,body{
+  font-family: "Yekan" !important;
+  margin: 0;
   background-color: rgb(255, 255, 255);
 }
