@@ -10,6 +10,7 @@
     align-items: center;
     border-radius: 15px;
     border: 2px solid #a5a5a5;
+   
 
 }
 .Initial-visit,.Next-visit{
@@ -23,29 +24,44 @@
     justify-content: center;
     cursor: pointer;
     transition: all ease-in-out 400ms;
+    position: relative;
+    background-color: #bfe8eb;
 }
 
 .Initial-visit{
-    color: rgb(6 205 205);
-    transition: all ease-in-out 400ms;
+    color: hsl(182, 76%, 19%);
+    background-image: url("../../images/tooth.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
 }
 
 .Initial-visit:hover{
-    background-color: rgb(6 205 205);
+    background-color: rgb(10, 152, 177);
     color: #ffffff;
     box-shadow: 0px 0px 5px rgb(250, 253, 253);
-}
+    border: 2px solid rgb(255, 255, 255);}
 
 .Next-visit{
-    color: rgb(7, 141, 29);
+    color: hsl(182, 76%, 19%);
+    background-image: url("../../images/tooth-dental.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
 }
 
 .Next-visit:hover{
-    background-color: rgb(7, 141, 29);
+    background-color: rgb(10, 152, 177);
     color: #ffffff;
     box-shadow: 0px 0px 5px rgb(250, 253, 253);
+    border: 2px solid rgb(255, 255, 255);
 }
 
 .MuiTypography-h6{
     background-color: #ffffff00;
+    position: absolute;
+    bottom: 4px;
+    font-size: 1.2rem !important;
 }

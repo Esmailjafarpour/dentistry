@@ -8,7 +8,7 @@ const FirstStageVisit =  () => {
 
                 <Box className="Initial-visit">
                     <Typography variant="h6" component="h2">
-                        نوبت اولیه
+                      ویزیت                    
                     </Typography>
                 </Box>
                 <Box className="Next-visit">
