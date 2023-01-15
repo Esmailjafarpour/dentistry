@@ -1,0 +1,23 @@
+.list{
+    background-color: #448782 !important;
+    padding: 5px 10px !important;
+    border-radius: 8px;
+    
+}
+
+.item-dentist{
+    cursor: pointer;
+    background-color: #089585;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+
+.MuiListItemAvatar-root{
+    background-color: #089585;
+}
+
+.MuiTypography-root{
+    background-color: #089585;
+    color: #ffffff;
+}
