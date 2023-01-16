@@ -12,7 +12,7 @@ const ListOfDentists = () => {
                 <Box className="List-Dentists">
 
                         <Typography className="title-secondpage" variant="h6" component="h2">
-                        دندان پزشک مورد نظر را انتخاب کنید               
+                        دندان پزشک مورد نظر خود را انتخاب کنید               
                         </Typography>
 
                         <Dentist/>

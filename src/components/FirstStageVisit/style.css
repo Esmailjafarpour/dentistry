@@ -1,7 +1,7 @@
 .visit-Box{
     width: 300px;
     height: 500px;
-    background-color: rgb(46 141 149);
+    background-image: linear-gradient(225deg, #76caf3, #53b5e5);
     margin: 50px auto;
     padding: 10px 10px;
     display: flex;
@@ -9,9 +9,7 @@
     flex-direction: column;
     align-items: center;
     border-radius: 15px;
-    border: 2px solid #a5a5a5;
-   
-
+    border: 3px solid #1274c9;
 }
 .Initial-visit,.Next-visit{
     width: 50%;
@@ -26,6 +24,7 @@
     transition: all ease-in-out 400ms;
     position: relative;
     background-color: #bfe8eb;
+    border: 2px solid #1274c9;
 }
 
 .Initial-visit{
@@ -40,7 +39,7 @@
 .Initial-visit:hover{
     background-color: rgb(10, 152, 177);
     color: #ffffff;
-    box-shadow: 0px 0px 5px rgb(250, 253, 253);
+    box-shadow: 0px 0px 80px rgb(250, 253, 253);
     border: 2px solid rgb(255, 255, 255);}
 
 .Next-visit{
@@ -55,13 +54,14 @@
 .Next-visit:hover{
     background-color: rgb(10, 152, 177);
     color: #ffffff;
-    box-shadow: 0px 0px 5px rgb(250, 253, 253);
+    box-shadow: 0px 0px 80px rgb(250, 253, 253);
     border: 2px solid rgb(255, 255, 255);
 }
 
-.MuiTypography-h6{
-    background-color: #ffffff00;
+.visit-title{
+    background-color: #ffffff00 !important;
     position: absolute;
     bottom: 4px;
     font-size: 1.2rem !important;
+    
 }

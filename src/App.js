@@ -1,8 +1,9 @@
 
 import './App.css';
 import {Route,Routes,BrowserRouter} from 'react-router-dom';
-import FirstStageVisit from './components/FirstStageVisit';
-import ListOfDentists from './components/ListOfDentists';
+import FirstStageVisit from './components/FirstStageVisit/index.jsx';
+import ListOfDentists from './components/ListOfDentists/index.jsx';
+import Appointment from './components/Appointment/index.jsx';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
             <Routes>
               <Route path="/" element={<FirstStageVisit/>}/>
               <Route path="/ListOfDentists" element={<ListOfDentists/>}/>
-              
+              <Route path="/ListOfDentists" element={<ListOfDentists/>}/>
+              <Route path="/Appointment" element={<Appointment/>}/>
             </Routes>
           </div>
         </BrowserRouter>

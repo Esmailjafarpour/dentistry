@@ -1,5 +1,5 @@
 .list{
-    background-color: #448782 !important;
+    background-color: #bae9e5  !important;
     padding: 5px 10px !important;
     border-radius: 8px;
     
@@ -7,17 +7,17 @@
 
 .item-dentist{
     cursor: pointer;
-    background-color: #089585;
-    border: 2px solid #ffffff;
+    background-color: #6ce9dc;
+    border: 2px solid #0ddbc8;
     border-radius: 8px;
     margin: 5px 0;
 }
 
 .MuiListItemAvatar-root{
-    background-color: #089585;
+    background-image: linear-gradient(144deg, #71f1e5, #64ddcf);   
 }
 
-.MuiTypography-root{
-    background-color: #089585;
-    color: #ffffff;
+.ListItemText{
+    background-color: #6ce9dc !important;
+    color: rgb(25 45 185);
 }
