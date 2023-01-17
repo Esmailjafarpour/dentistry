@@ -1,7 +1,7 @@
 .Appointment{
     width: 300px;
     height: 500px;
-    background-color: rgb(46 141 149);
+    background-color: #63bfec;
     margin: 50px auto;
     padding: 10px 10px;
     display: flex;
@@ -20,13 +20,13 @@
     align-items: center;
     width: 85%;
     height: 45px;
-    border: 2px solid #ccc;
+    border: 2px solid #fff;
     border-radius: 8px;
     position: absolute;
-    
-    background-color: #089585;
+    background-color: #63bfec;
     margin: 10px 0;
     top: 10px;
+    color: white;
 }
 
 .date,.shift,.time{
@@ -37,7 +37,7 @@
     border: 2px solid rgb(255, 255, 255);
     border-radius: 8px;
     position: relative;
-    background-color: #089585;
+    background-color: #63bfec;
     margin: 10px 0;
     cursor: pointer;
     flex-direction: column-reverse;
@@ -48,21 +48,34 @@
 }
 
 .MuiButtonBase-root{
-    background-color: #089585 !important;
+    background-color: #0dbef3 !important;
     flex-direction: row-reverse;
 }
 
 .MuiAccordionSummary-content{
     display: flex;
     justify-content: center;
-    background-color: #089585;
+    background-color: #0dbef3;
+    color: #ffffff;
 }
 
 .MuiSvgIcon-root{
-    background-color: #089585 !important;
+    background-color: #0dbef3 !important;
     color: rgb(255, 255, 255);
 }
 
 .MuiAccordionDetails-root{
-    background-color: #089585 !important; 
+    background-color: #43899f !important;
+    color: #fffc;
+}
+
+.Pic-Dentist{
+    width: 150px !important;
+    height: 150px !important;
+    background-repeat: no-repeat !important;
+}
+
+.Avatar{
+    width: 100% !important;
+    height: 100% !important;
 }

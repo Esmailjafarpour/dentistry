@@ -28,8 +28,8 @@
 }
 
 .Initial-visit{
-    color: hsl(182, 76%, 19%);
-    background-image: url("../../images/tooth.png");
+    color: hsl(0, 0%, 100%);
+    background-image: url("../../images/tooth3.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -37,31 +37,45 @@
 }
 
 .Initial-visit:hover{
-    background-color: rgb(10, 152, 177);
-    color: #ffffff;
+    /* background-color: rgb(10, 152, 177); */
+    color: #196a03;
     box-shadow: 0px 0px 80px rgb(250, 253, 253);
-    border: 2px solid rgb(255, 255, 255);}
+    border: 2px solid rgb(3, 148, 162);
+}
 
 .Next-visit{
-    color: hsl(182, 76%, 19%);
-    background-image: url("../../images/tooth-dental.png");
+    background-image: url("../../images/tooth4.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     position: relative;
+    
 }
 
 .Next-visit:hover{
-    background-color: rgb(10, 152, 177);
-    color: #ffffff;
+    /* background-color: rgb(10, 152, 177); */
+    color: #034ca0 !important;
     box-shadow: 0px 0px 80px rgb(250, 253, 253);
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(3, 148, 162);
+    padding: 2px;
 }
 
 .visit-title{
-    background-color: #ffffff00 !important;
+    position: absolute;
+    font-size: 1.4rem !important;
+    top: -45px;
+    color: rgb(255 255 255);
+    rotate: 359deg;
+    left: 40px;
+    
+}
+
+.visit-Next-title{
     position: absolute;
     bottom: 4px;
-    font-size: 1.2rem !important;
-    
+    font-size: 1.4rem !important;
+    top: 140px;
+    color: rgb(255 255 255);
+    rotate: 359deg;
+    left: 19px;
 }

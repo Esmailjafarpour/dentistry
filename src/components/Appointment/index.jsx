@@ -7,6 +7,9 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import ListItemAvatar from '@mui/material/ListItemAvatar';
+import Avatar from '@mui/material/Avatar';
+
 
 const appointment = () => {
 
@@ -21,6 +24,10 @@ const appointment = () => {
                     دندانپزشک علی مصفا                  
                 </Typography>
             </Box>
+
+            <ListItemAvatar className="Pic-Dentist">
+                <Avatar className="Avatar" alt="Cindy Baker" src={require(`../../images/dentist6.png`)} />
+            </ListItemAvatar>
 
             <Box className="date">
                 <Accordion >
@@ -39,44 +46,44 @@ const appointment = () => {
                         </Typography>
                     </AccordionDetails>
 
-                </Accordion>
-            </Box>
-
-            <Box className="shift">
-                <Accordion >
-                    <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel1a-content"
-                    id="panel1a-header"
-                    >
-                    <Typography>صبح یا عصر</Typography>
-                    </AccordionSummary>
-                    <AccordionDetails>
-                    <Typography>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                        malesuada lacus ex, sit amet blandit leo lobortis eget.
-                    </Typography>
-                    </AccordionDetails>
-                </Accordion>
-            </Box>
-                
-            <Box className="time">
-                <Accordion className="Accordion">
-                    <AccordionSummary
+                        {/* <Box className="shift"> */}
+                    <Accordion >
+                        <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}
                         aria-controls="panel1a-content"
                         id="panel1a-header"
-                    >
-                    <Typography>ساعت</Typography>
-
-                    </AccordionSummary>
-
-                    <AccordionDetails>
+                        >
+                        <Typography>صبح یا عصر</Typography>
+                        </AccordionSummary>
+                        <AccordionDetails>
                         <Typography>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                             malesuada lacus ex, sit amet blandit leo lobortis eget.
                         </Typography>
-                    </AccordionDetails>
+                        </AccordionDetails>
+                    </Accordion>
+                        {/* </Box> */}
+
+                        {/* <Box className="time"> */}
+                    <Accordion className="Accordion">
+                        <AccordionSummary
+                            expandIcon={<ExpandMoreIcon />}
+                            aria-controls="panel1a-content"
+                            id="panel1a-header"
+                        >
+                        <Typography>ساعت</Typography>
+
+                        </AccordionSummary>
+
+                        <AccordionDetails>
+                            <Typography>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                malesuada lacus ex, sit amet blandit leo lobortis eget.
+                            </Typography>
+                        </AccordionDetails>
+                    </Accordion>
+                         {/* </Box> */}
+
                 </Accordion>
             </Box> 
         

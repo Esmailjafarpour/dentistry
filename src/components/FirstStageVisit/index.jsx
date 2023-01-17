@@ -22,8 +22,6 @@ const FirstStageVisit =  () => {
                         onListOfDentist()
                     }}
                 >
-                     
-
                     <Typography 
                         variant="h6"    
                         component="h6"
@@ -32,8 +30,9 @@ const FirstStageVisit =  () => {
                       ویزیت                    
                     </Typography>
                 </Box>
+
                 <Box className="Next-visit">
-                    <Typography className="visit-title"  variant="h6" component="h2">
+                    <Typography className="visit-Next-title"  variant="h6" component="h2">
                         نوبت بعدی
                     </Typography>
                 </Box>

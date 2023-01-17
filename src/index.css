@@ -34,14 +34,15 @@ code {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   margin: 2px 0;
-  background: rgb(180, 180, 180); 
-  border-radius: 8px;
-  border: 1px solid rgb(44, 44, 44); 
-  cursor: pointer;
+    background: rgb(18 116 201);
+    border-radius: 8px;
+    border: 1px solid rgb(157 157 157);
+    cursor: pointer;
+}
 
 
   
-}
+
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
